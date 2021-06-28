@@ -1,0 +1,76 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>مرجع تخصصی برنامه نویسان</title>
+    
+    <link href="~/AdminTemplate/css/styles.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="header">
+        <div class="header-right-panel">
+            <div class="logo-wrap">
+                <div class="logo">
+                    <h2>
+
+                        لورم ایپسوم یا طرح‌نما
+                    </h2>
+                    <h1>نام وب سایت</h1>
+                </div>
+            </div>
+        </div>
+        <div class="header-left-panel">
+            <div class="header-left-panel-top">
+                <p>
+                    تماس با ما: 8888 888 000
+
+                </p>
+
+                <p>
+                    <a href="#">
+                        با ما تماس بگیرید: info@websitename.com
+                    </a>
+                </p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="marLeft20"><a class="active" href="index.html">صفحه اصلی</a></li>
+                    <li class="marLeft20"><a href="about.html">درباره ما</a></li>
+                    <li><a href="services.html">خدمات</a></li>
+                    <li class="marLeft20"><a href="features.html">ویژگی ها</a></li>
+                    <li class="marLeft20"><a href="#">وبلاگ</a></li>
+                    <li><a href="contact.html">تماس با ما</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--- header div end -->
+    
+    <div class="main-panel">
+        <div class="main-content">
+            @RenderBody()
+        </div>
+
+    </div>
+    
+       
+        
+  
+    <div class="footer">
+        <p>
+
+            کپی رایت@2015 تمام حقوق مادی و معنوی این سایت متعلق به گروه برنامه نویسان میباشد
+            <a href="http://www.barnamenevisan.org/">مرجع تخصصی برنامه نویسان</a>
+        </p>
+    </div>
+
+</body>
+</html>
+
